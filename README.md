@@ -1,2 +1,5 @@
 # Apache-Spark-on-Google-Cloud
-This Repo contains the use of apache spark using Python programming language the Pyspark library to perfrom ETL operations 
+
+## Introduction
+Welcome to the Apache Spark on Google Cloud repository! My name is Joel Mendonsa, and I am a data science enthusiast with a background in data integration. During my studies, I had the opportunity to work with Google Cloud Platform (GCP), which inspired me to explore Apache Spark for big data processing.
+
