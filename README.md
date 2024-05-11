@@ -1,5 +1,6 @@
 # Apache-Spark-on-Google-Cloud
 
+
 ## Introduction
 Welcome to the Apache Spark on Google Cloud repository! My name is Joel Mendonsa, and I am a data science enthusiast with a background in data integration. During my studies, I had the opportunity to work with Google Cloud Platform (GCP), which inspired me to explore Apache Spark for big data processing.
 
@@ -11,3 +12,44 @@ In this repository, I showcase various projects demonstrating the usage of Apach
 - **Inspiration from GCP**: My experience with Google Cloud Platform during lectures motivated me to explore Apache Spark for big data analytics.
 - **Ease of Use**: Leveraging Google Cloud Platform for Spark projects eliminates the need for local installation and setup, making it convenient and accessible.
 - **Cloud-Based Approach**: By utilizing Google Cloud Platform services such as Google Dataproc clusters, I demonstrate how to leverage the power of Apache Spark in a cloud environment without the hassle of managing infrastructure.
+
+## Projects
+Here's a brief overview of the projects included in this repository:
+
+### Project 1
+#### Taxi Trips Analysis
+[Project 1](Project1.ipynb)
+#### Description:
+Analyzed taxi trip data from Chicago using Apache Spark on Google Cloud Platform to derive insights.
+
+#### Features:
+- **Dataset**: Records of taxi trips in Chicago, including trip details.
+- **Spark Jobs**:
+  - Loaded dataset from Google Cloud Storage.
+  - Conducted EDA.
+  - Calculated summary statistics.
+  - Converted timestamp columns.
+  - Aggregated data for analysis.
+- **Data Processing**:
+  - Loaded data from GCS.
+  - Conducted basic cleaning.
+  - Explored data for insights.
+  - Aggregated data for analysis.
+
+
+#### Description:
+Analyzed taxi trip data from Chicago using Apache Spark on Google Cloud Platform to derive insights.
+
+#### Features:
+- **Dataset**: Records of taxi trips in Chicago, including trip details.
+- **Spark Jobs**:
+  - Loaded dataset from Google Cloud Storage.
+  - Conducted EDA.
+  - Calculated summary statistics.
+  - Converted timestamp columns.
+  - Aggregated data for analysis.
+- **Data Processing**:
+  - Loaded data from GCS.
+  - Conducted basic cleaning.
+  - Explored data for insights.
+  - Aggregated data for analysis.
