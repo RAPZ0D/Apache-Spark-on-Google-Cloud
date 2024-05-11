@@ -18,7 +18,7 @@ Here's a brief overview of the projects included in this repository:
 
 ### Project 1
 #### Taxi Trips Analysis
-[Project 1: Taxi Trips Analysis](Project%201/project1.ipynb)
+[Project 1: Taxi Trips Analysis](Project%201/Project1.ipynb)
 #### Description:
 Analyzed taxi trip data from Chicago using Apache Spark on Google Cloud Platform to derive insights.
 
