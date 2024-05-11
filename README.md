@@ -1,6 +1,8 @@
 # Apache-Spark-on-Google-Cloud
 
 [Project 1](#Project-1)
+
+[Project 2](#Project-2)
 ## Introduction
 Welcome to the Apache Spark on Google Cloud repository! My name is Joel Mendonsa, and I am a data science enthusiast with a background in data integration. During my studies, I had the opportunity to work with Google Cloud Platform (GCP), which inspired me to explore Apache Spark for big data processing.
 
@@ -36,3 +38,21 @@ Analyzed taxi trip data from Chicago using Apache Spark on Google Cloud Platform
   - Explored data for insights.
   - Aggregated data for analysis.
 
+### Project 2
+#### Car Sales Data Analysis
+[Project 2: Car Sales Data Analysis](Project%202/Project2.ipynb)
+
+#### Description:
+Analyzed car sales data for Canada using Apache Spark on Google Cloud Platform. The dataset contains monthly sales data for different car models.
+
+#### Features:
+- **Dataset**: Monthly sales data for various car models in Canada.
+- **Data Loading**:
+  - Loaded dataset from Google Cloud Storage.
+- **Data Processing**:
+  - Conducted basic data exploration.
+  - Converted timestamp columns.
+  - Aggregated data for analysis.
+- **Data Export**:
+  - Uploaded processed data to Google BigQuery.
+  - Stored intermediate results in Google Cloud Storage.
