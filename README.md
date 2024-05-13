@@ -61,3 +61,24 @@ Analyzed car sales data for Canada using Apache Spark on Google Cloud Platform. 
   - Stored intermediate results in Google Cloud Storage.
 
 ### Project 3
+#### BikeShare Data Analysis with Spark SQL
+[Project 3: BikeShare Data Analysis](Project%203/Project3.ipynb)
+
+#### Description:
+Performed analysis on BikeShare data using Spark SQL. The dataset contains information about bike rentals, including datetime, weather conditions, and rental counts.
+
+#### Features:
+- **Dataset**: BikeShare data including datetime, weather conditions, and rental counts.
+- **Data Loading**:
+  - Loaded dataset from Google Cloud Storage.
+- **Data Exploration**:
+  - Conducted basic data exploration.
+- **Spark SQL Queries**:
+  - Utilized Spark SQL for data transformation and analysis.
+  - Calculated average temperature for each season.
+- **Managed Table Creation**:
+  - Saved DataFrame as a managed table in Spark.
+- **External Table Creation**:
+  - Saved DataFrame as an external table in Spark.
+- **Table Management**:
+  - Listed, showed, and dropped tables in Spark session.
