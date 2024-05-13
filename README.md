@@ -4,6 +4,8 @@
 
 [Project 2](#Project-2)
 
+[Project 3](#Project-3)
+
 ## Introduction
 Welcome to the Apache Spark on Google Cloud repository! My name is Joel Mendonsa, and I am a data science enthusiast with a background in data integration. During my studies, I had the opportunity to work with Google Cloud Platform (GCP), which inspired me to explore Apache Spark for big data processing.
 
@@ -57,3 +59,5 @@ Analyzed car sales data for Canada using Apache Spark on Google Cloud Platform. 
 - **Data Export**:
   - Uploaded processed data to Google BigQuery.
   - Stored intermediate results in Google Cloud Storage.
+
+### Project 3
