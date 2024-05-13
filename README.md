@@ -85,3 +85,22 @@ Performed analysis on BikeShare data using Spark SQL. The dataset contains infor
   - Listed, showed, and dropped tables in Spark session.
 
 ### Project 4
+#### Churn Modelling Analysis and Data Transformation
+[Project 4: Churn Modelling Analysis](Project%204/Project4.ipynb)
+
+#### Description:
+Performed analysis on a Churn Modelling dataset and transformed it using PySpark. The dataset contains information about customers, including credit score, geography, gender, age, balance, estimated salary, and churn status.
+
+#### Features:
+- **Dataset**: Churn Modelling dataset containing customer information.
+- **Data Loading**:
+  - Loaded dataset from Google Cloud Storage.
+- **Data Exploration**:
+  - Conducted basic data exploration.
+- **Data Transformation**:
+  - Filtered data for customers in France between the age of 30 to 65.
+- **Table Creation and Saving**:
+  - Created a table for the filtered data using Spark SQL.
+  - Saved the table to Google Cloud Storage as a Parquet file.
+- **Table Verification**:
+  - Verified the table creation and data saving process by querying the saved table.
