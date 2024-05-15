@@ -139,3 +139,17 @@ This project involves extracting data from a MySQL database, transforming it usi
 
 #### Description:
 This project leverages Pub/Sub Lite, a messaging system on Google Cloud Platform (GCP), to send messages from a Google Cloud Storage bucket to Pub/Sub Lite. A Python script processes the data and publishes messages to a Pub/Sub Lite topic one by one.
+
+#### Features:
+- **Data Source**: Google Cloud Storage bucket containing JSON files.
+- **Data Extraction**:
+  - Extracted data from the bucket using the Google Cloud Storage client.
+- **Data Transformation**:
+  - Added a timestamp to each event before publishing.
+- **Data Publishing**:
+  - Published messages to a Pub/Sub Lite topic using the PublisherClient from Google Cloud's Pub/Sub Lite library.
+  - Each message contains updated event data, including a new `event_date` field.
+- **Message Metadata**:
+  - Included metadata such as partition and offset for each published message.
+- **Output Verification**:
+  - Verified successful publishing by printing message IDs and associated metadata.
