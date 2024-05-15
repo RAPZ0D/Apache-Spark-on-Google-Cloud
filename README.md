@@ -10,6 +10,8 @@
 
 [Project 5](#Project-5)
 
+[Project 6](#Project-6)
+
 ## Introduction
 Welcome to the Apache Spark on Google Cloud repository! My name is Joel Mendonsa, and I am a data science enthusiast with a background in data integration. During my studies, I had the opportunity to work with Google Cloud Platform (GCP), which inspired me to explore Apache Spark for big data processing.
 
@@ -130,3 +132,5 @@ This project involves extracting data from a MySQL database, transforming it usi
   - Stored the transformed data as a CSV file in a Google Cloud bucket.
 - **File Verification**:
   - Verified the file upload process by checking the stored data in Google Cloud Storage.
+
+### Project 6
