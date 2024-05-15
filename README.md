@@ -159,3 +159,6 @@ This project leverages Pub/Sub Lite, a messaging system on Google Cloud Platform
 ### Project 7
 #### Movie Recommendation System with Collaborative Filtering using PySpark
 [Project 7: Movie Recommendation System](Project%207/Project7.ipynb)
+
+#### Description:
+Making use of Collaborative Filtering and then making recommendations on the Movies Dataset.
