@@ -134,3 +134,8 @@ This project involves extracting data from a MySQL database, transforming it usi
   - Verified the file upload process by checking the stored data in Google Cloud Storage.
 
 ### Project 6
+#### Pub/Sub Lite Integration for Real-Time Messaging
+[Project 6: Pub/Sub Lite Integration](Project%206/Project6.ipynb)
+
+#### Description:
+This project leverages Pub/Sub Lite, a messaging system on Google Cloud Platform (GCP), to send messages from a Google Cloud Storage bucket to Pub/Sub Lite. A Python script processes the data and publishes messages to a Pub/Sub Lite topic one by one.
