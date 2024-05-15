@@ -114,3 +114,19 @@ Performed analysis on a Churn Modelling dataset and transformed it using PySpark
 
 #### Description:
 This project involves extracting data from a MySQL database, transforming it using Pandas and PySpark, and visualizing the transformed data using Matplotlib and Seaborn. The processed data is then stored in a Google Cloud bucket for further use.
+
+#### Features:
+- **Database**: MySQL database containing loan data.
+- **Data Extraction**:
+  - Connected to the MySQL database and fetched loan data.
+- **Data Loading**:
+  - Loaded the extracted data into a Pandas DataFrame.
+- **Data Transformation**:
+  - Transformed the data using Pandas and PySpark.
+  - Calculated average interest rates per credit policy.
+- **Data Visualization**:
+  - Visualized the average interest rates per credit policy using Matplotlib and Seaborn.
+- **Data Storage**:
+  - Stored the transformed data as a CSV file in a Google Cloud bucket.
+- **File Verification**:
+  - Verified the file upload process by checking the stored data in Google Cloud Storage.
