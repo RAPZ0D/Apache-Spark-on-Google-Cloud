@@ -162,3 +162,24 @@ This project leverages Pub/Sub Lite, a messaging system on Google Cloud Platform
 
 #### Description:
 Making use of Collaborative Filtering and then making recommendations on the Movies Dataset.
+
+#### Features:
+- **Data Reading**:
+  - Reads movie data from a CSV file stored in a Google Cloud Storage bucket using PySpark.
+- **Data Preprocessing**:
+  - Drops irrelevant columns.
+  - Handles missing values.
+  - Converts the 'run_time' column to minutes.
+- **Creating User-Item Matrix**:
+  - Converts 'name' and 'genre' columns to numerical indices using StringIndexer.
+  - Renames columns for clarity.
+- **Training the ALS Model**:
+  - Initializes the ALS model with parameters like maximum iterations and regularization parameter.
+  - Fits the ALS model to the DataFrame.
+- **Making Recommendations**:
+  - Generates recommendations for all users using the trained ALS model.
+  - Outputs the top recommendations for each user, including movie names.
+- **Predictions**:
+  - Makes predictions for specific user-item pairs using the trained model.
+- **Evaluation**:
+  - Evaluates the model's performance by computing the Root Mean Squared Error (RMSE) on the test data.
