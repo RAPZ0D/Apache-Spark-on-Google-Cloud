@@ -155,3 +155,7 @@ This project leverages Pub/Sub Lite, a messaging system on Google Cloud Platform
   - Included metadata such as partition and offset for each published message.
 - **Output Verification**:
   - Verified successful publishing by printing message IDs and associated metadata.
+
+### Project 7
+#### Movie Recommendation System with Collaborative Filtering using PySpark
+[Project 7: Movie Recommendation System](Project%207/Project7.ipynb)
